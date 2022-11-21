@@ -55,6 +55,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Execute SQL Starement";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // commandText
             // 
@@ -71,7 +72,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(732, 584);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 23);
+            this.label1.Size = new System.Drawing.Size(101, 18);
             this.label1.TabIndex = 4;
             this.label1.Text = "Record Count";
             // 
@@ -81,7 +82,7 @@
             this.countLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.countLabel.Location = new System.Drawing.Point(909, 584);
             this.countLabel.Name = "countLabel";
-            this.countLabel.Size = new System.Drawing.Size(21, 23);
+            this.countLabel.Size = new System.Drawing.Size(17, 18);
             this.countLabel.TabIndex = 5;
             this.countLabel.Text = "0";
             this.countLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -90,7 +91,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(786, 516);
+            this.ClientSize = new System.Drawing.Size(1159, 694);
             this.Controls.Add(this.countLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.commandText);
@@ -98,6 +99,7 @@
             this.Controls.Add(this.recordGridView);
             this.Name = "testerForm";
             this.Text = "SQL Command Tester";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.recordGridView)).EndInit();
             this.ResumeLayout(false);

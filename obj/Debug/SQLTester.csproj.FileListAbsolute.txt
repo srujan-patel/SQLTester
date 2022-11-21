@@ -8,3 +8,4 @@ C:\Users\Srujan Patel\SQLTester\SQLTester\bin\Debug\SQLTester.exe
 C:\Users\Srujan Patel\SQLTester\SQLTester\bin\Debug\SQLTester.pdb
 C:\Users\Srujan Patel\SQLTester\SQLTester\obj\Debug\SQLTester.exe
 C:\Users\Srujan Patel\SQLTester\SQLTester\obj\Debug\SQLTester.pdb
+C:\Users\Srujan Patel\SQLTester\SQLTester\obj\Debug\SQLTester.Helper.resources
